@@ -1,0 +1,26 @@
+## FunctionDef BVN_checker
+**BVN_checker**: The function of BVN_checker is to generate a Bank Verification Number (BVN) by combining a sequence of numbers into a single string.
+
+**parameters**: This Function does not take any parameters.
+
+**Code Description**: The BVN_checker function initializes a global variable gen_bvn, creates a list of numbers from 0 to 4 as strings, and then joins these strings to form the gen_bvn BVN string.
+
+In the project, the BVN_checker function is called within the open_acct function. After collecting user details such as first name, last name, and sex, the BVN_checker function is invoked to generate a BVN. The generated BVN is then added to the user details list before being formatted and displayed to the user. This BVN is a crucial identifier for the user's account.
+
+**Note**: It is important to ensure that the BVN_checker function is called before attempting to access the gen_bvn variable to retrieve the generated BVN.
+## FunctionDef open_acct
+Doc is waiting to be generated...
+## FunctionDef upgrade_migrate
+Doc is waiting to be generated...
+## FunctionDef balance
+Doc is waiting to be generated...
+## FunctionDef transf
+Doc is waiting to be generated...
+## FunctionDef funds
+Doc is waiting to be generated...
+## FunctionDef options_menu
+Doc is waiting to be generated...
+## FunctionDef exit
+Doc is waiting to be generated...
+## FunctionDef log_in
+Doc is waiting to be generated...
